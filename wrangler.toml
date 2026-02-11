@@ -1,7 +1,7 @@
 # For more details on how to configure Wrangler, refer to:
 # https://developers.cloudflare.com/workers/wrangler/configuration/
 
-name = "swe-portfolio-26"
+name = "my-next-app"
 main = ".open-next/worker.js"
 compatibility_date = "2025-12-01"
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
