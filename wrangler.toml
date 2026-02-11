@@ -5,7 +5,7 @@ name = "my-next-app"
 main = ".open-next/worker.js"
 compatibility_date = "2025-12-01"
 compatibility_flags = ["nodejs_compat", "global_fetch_strictly_public"]
-pages_build_output_dir = ".open-next"
+
 
 [build]
 command = "npm run build"

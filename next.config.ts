@@ -2,14 +2,14 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
 	// Build optimization for memory-constrained environments
-	webpack: (config, { isServer }) => {
-		// Reduce memory overhead during build
-		config.optimization = {
-			...config.optimization,
-			minimize: true,
-		};
-		return config;
-	},
+	// webpack: (config, { isServer }) => {
+	// 	// Reduce memory overhead during build
+	// 	config.optimization = {
+	// 		...config.optimization,
+	// 		minimize: true,
+	// 	};
+	// 	return config;
+	// },
 
 	// Image optimization settings for Cloudflare
 	images: {
