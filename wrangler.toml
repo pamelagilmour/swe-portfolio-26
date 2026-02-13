@@ -24,7 +24,7 @@ binding = "IMAGES"
 # Self-reference service binding, the service name must match the worker name
 # see https://opennext.js.org/cloudflare/caching
 binding = "WORKER_SELF_REFERENCE"
-service = "swe-portfolio-26"
+service = "my-next-app"
 
 [observability]
 enabled = true
