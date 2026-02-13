@@ -1,9 +1,6 @@
-import Image from "next/image";
-
 export default function Home() {
 	return (
 		<div id="top" className="font-mono min-h-screen px-6 py-8 max-w-screen-md lg:mx-auto">
-			{/* px-4 pb-8 sm:px-6 sm:py-12 md:px-8 md:pb-16"> */}
 			<header className="pb-24">
 				{/* Add a11y menu */}
 				<h1 className="text-5xl font-[400] mb-2 sm:mb-3">Pamela Gilmour</h1>
@@ -39,7 +36,7 @@ export default function Home() {
 					<h2 className="text-2xl font-[500] mb-4 sm:mb-6">Experience</h2>
 					<div id="list-of-jobs">
 						<ul>
-							<li id="codeword" className="mb-12">
+							<li id="codeword" className="mb-16">
 								<div>
 									<h3 className="text-lg font-[400] mb-3">
 										Senior Creative Developer @ Codeword Agency
@@ -56,7 +53,7 @@ export default function Home() {
 									</p>
 								</div>
 							</li>
-							<li id="kqed" className="mb-12">
+							<li id="kqed" className="mb-16">
 								<div>
 									<h3 className="text-lg font-[400] mb-3">
 										Full Stack Software Engineer @ KQED Inc.
@@ -102,9 +99,9 @@ export default function Home() {
 				</section>
 				<section id="projects" className="mb-12 sm:mb-16 md:mb-20">
 					<h2 className="text-2xl font-[300] mb-4 sm:mb-6">Projects</h2>
-					<div>
+					<div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
-							<strong>AI-Powered Developer Knowledge Base</strong> <span className="font-[300]">(In Progress)</span>
+							<strong>AI-Powered Developer Knowledge Base</strong> <span className="font-[300]">(~ In Progress)</span>
 						</h4>
 						<p className="text-lg font-[300] mb-3">
 							Full-stack application with custom MCP server integration, AI agent, Redis caching, and background job processing.
@@ -113,7 +110,7 @@ export default function Home() {
 							<strong>Tech:</strong> Next.js, TypeScript, FastAPI, PostgreSQL, Redis, Claude API
 						</p>
 						<p className="text-lg font-[300] mb-3">
-							→ <a
+							↗ <a
 								href="https://github.com/pamelagilmour/p-1"
 								target="_blank"
 								rel="noreferrer noopener"
@@ -122,9 +119,9 @@ export default function Home() {
 							</a>
 						</p>
 					</div>
-					<div className="mb-8">
+					<div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
-							<strong>Real-Time Analytics Platform</strong> <span className="font-[300]">(Planned)</span>
+							<strong>Real-Time Analytics Platform</strong> <span className="font-[300]">(○ Planned)</span>
 						</h4>
 						<p className="text-lg font-[300] mb-3">
 							Demonstrating advanced data structures, algorithms, and high-throughput system design.
@@ -133,7 +130,7 @@ export default function Home() {
 							<strong>Tech:</strong> Next.js, Python, WebSocket, PostgreSQL
 						</p>
 						<p className="text-lg font-[300] mb-3">
-							→ <a
+							↗ <a
 								href="https://github.com/pamelagilmour/p-2"
 								target="_blank"
 								rel="noreferrer noopener"
@@ -142,9 +139,9 @@ export default function Home() {
 							</a>
 						</p>
 					</div>
-					<div>
+					<div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
-							<strong>Autonomous Research Agent</strong> <span className="font-[300]">(Planned)</span>
+							<strong>Autonomous Research Agent</strong> <span className="font-[300]">(○ Planned)</span>
 						</h4>
 						<p className="text-lg font-[300] mb-3">
 							AI agent system with multi-step reasoning, tool orchestration, and production-grade error handling.
@@ -153,7 +150,7 @@ export default function Home() {
 							<strong>Tech:</strong> Python, FastAPI, MCP Protocol, Claude API
 						</p>
 						<p className="text-lg font-[300] mb-3">
-							→ <a
+							↗ <a
 								href="https://github.com/pamelagilmour/p-3"
 								target="_blank"
 								rel="noreferrer noopener"
