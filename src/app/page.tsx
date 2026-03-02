@@ -41,15 +41,24 @@ export default function Home() {
 									<h3 className="text-lg font-[400] mb-3">
 										Senior Creative Developer @ Codeword Agency
 									</h3>
-									<p className="text-lg font-[200] mb-3">2025 - Present</p>
+									<p className="text-lg font-[200] mb-3">Sep 2025 - Present</p>
+									<p className="text-lg font-[300] mb-3">
+										Develop web applications and digital experiences for enterprise clients including Google.
+									</p>
 									<p className="text-lg font-[300] mb-3">
 										Develop and maintain web applications across multiple technology stacks including Vercel, WordPress, and BrightSpot CMS.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Manage site infrastructure and deployments for client-facing applications.
+										Build and maintain pages for Google Data Centers and internal properties, collaborating with design and communications teams.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Implement features within enterprise CMS platforms for major client accounts.
+										Own WordPress infrastructure and site maintenance for agency properties.
+									</p>
+									<p className="text-lg font-[300] mb-3">
+										Provide technical consultation on SEO strategy and performance optimization.
+									</p>
+									<p>
+										<strong>Tech:</strong> WordPress, PHP, React, TypeScript, Next.js, Vercel, Supabase, BrightSpot
 									</p>
 								</div>
 							</li>
@@ -58,7 +67,7 @@ export default function Home() {
 									<h3 className="text-lg font-[400] mb-3">
 										Full Stack Software Engineer @ KQED Inc.
 									</h3>
-									<p className="text-lg font-[200] mb-3">2025 - 2022</p>
+									<p className="text-lg font-[200] mb-3">May 2022 - Oct 2025</p>
 									<p className="text-lg font-[300] mb-3">
 										Led frontend development for high-traffic civic engagement platforms including the California Voter Guide (serving millions of voters) and Support site redesign (drove measurable donation increases).
 									</p>
@@ -101,7 +110,7 @@ export default function Home() {
 					<h2 className="text-2xl font-[300] mb-4 sm:mb-6">Projects</h2>
 					<div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
-							<strong>AI-Powered Developer Knowledge Base</strong> <span className="font-[300]">(~ In Progress)</span>
+							<strong>AI-Powered Developer Knowledge Base</strong>
 						</h4>
 						<p className="text-lg font-[300] mb-3">
 							Full-stack application with custom MCP server integration, AI agent, Redis caching, and background job processing.
@@ -119,7 +128,7 @@ export default function Home() {
 							</a>
 						</p>
 					</div>
-					<div className="mb-14">
+					{/* <div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
 							<strong>Real-Time Analytics Platform</strong> <span className="font-[300]">(○ Planned)</span>
 						</h4>
@@ -138,8 +147,8 @@ export default function Home() {
 								View on GitHub
 							</a>
 						</p>
-					</div>
-					<div className="mb-14">
+					</div> */}
+					{/* <div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
 							<strong>Autonomous Research Agent</strong> <span className="font-[300]">(○ Planned)</span>
 						</h4>
@@ -158,7 +167,7 @@ export default function Home() {
 								View on GitHub
 							</a>
 						</p>
-					</div>
+					</div> */}
 				</section>
 			</main>
 			<footer className="">
