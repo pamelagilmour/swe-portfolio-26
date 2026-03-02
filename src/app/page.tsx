@@ -110,7 +110,7 @@ export default function Home() {
 					<h2 className="text-2xl font-[300] mb-4 sm:mb-6">Projects</h2>
 					<div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
-							<strong>AI-Powered Developer Knowledge Base</strong>
+							Dev Notes AI, an AI-powered developer knowledge base
 						</h4>
 						<p className="text-lg font-[300] mb-3">
 							Full-stack application with custom MCP server integration, AI agent, Redis caching, and background job processing.
@@ -118,15 +118,32 @@ export default function Home() {
 						<p className="text-lg font-[300] mb-3">
 							<strong>Tech:</strong> Next.js, TypeScript, FastAPI, PostgreSQL, Redis, Claude API
 						</p>
-						<p className="text-lg font-[300] mb-3">
-							↗ <a
-								href="https://github.com/pamelagilmour/p-1"
-								target="_blank"
-								rel="noreferrer noopener"
-								className="underline hover:no-underline transition-all">
-								View on GitHub
-							</a>
-						</p>
+						<ul className="flex gap-4 list-none p-0 m-0" aria-label="Dev Notes AI links">
+							<li
+								className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all"
+							>
+								<a
+									href="https://github.com/pamelagilmour/dev-notes-ai"
+									target="_blank"
+									rel="noreferrer noopener"
+									aria-label="View Dev Notes AI source code on GitHub"
+								>
+									Source code ↗ 
+								</a>
+							</li>
+							<li
+								className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all"
+							>
+								<a
+									href="https://p-11-one.vercel.app/"
+									target="_blank"
+									rel="noreferrer noopener"
+									aria-label="View Dev Notes AI live demo"
+								>
+									Live Demo ↗ 
+								</a>
+							</li>
+						</ul>
 					</div>
 					{/* <div className="mb-14">
 						<h4 className="text-lg font-[400] mb-3">
