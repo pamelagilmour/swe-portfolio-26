@@ -19,6 +19,11 @@ export default function Home() {
 							LinkedIn
 						</a>
 					</li>
+					<li className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
+   						<a href="/PamelaGilmourEngResume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF">
+     						Resume
+   						</a>
+ 					</li>
 				</ul>
 			</header>
 			<main>
@@ -102,9 +107,12 @@ export default function Home() {
 								</div>
 							</li>
 						</ul>
+						<div className="mt-8">
+							<a href="/PamelaGilmourEngResume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF" className=" border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
+     							Resume
+   							</a>
+     					</div>
 					</div>
-					{/* <p>Link to resume</p> */}
-
 				</section>
 				<section id="projects" className="mb-12 sm:mb-16 md:mb-20">
 					<h2 className="text-2xl font-[300] mb-4 sm:mb-6">Projects</h2>
