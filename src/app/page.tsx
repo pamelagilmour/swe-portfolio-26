@@ -20,7 +20,7 @@ export default function Home() {
 						</a>
 					</li>
 					<li className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
-   						<a href="/PamelaGilmourEngResume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF">
+   						<a href="/PamelaGilmourEngResumebc.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF">
      						Resume
    						</a>
  					</li>
@@ -108,7 +108,7 @@ export default function Home() {
 							</li>
 						</ul>
 						<div className="mt-8">
-							<a href="/PamelaGilmourEngResume.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF" className=" border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
+							<a href="/PamelaGilmourEngResumebc.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF" className=" border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
      							Resume
    							</a>
      					</div>
@@ -151,6 +151,43 @@ export default function Home() {
 									Live Demo ↗ 
 								</a>
 							</li>
+						</ul>
+					</div>
+					<div className="mb-14">
+						<h4 className="text-lg font-[400] mb-3">
+							MCP Server prototype for KQED
+						</h4>
+						<p className="text-lg font-[300] mb-3">
+							Custom MCP server providing programmatic access to KQED's public APIs for content discovery and media retrieval
+						</p>
+						<p className="text-lg font-[300] mb-3">
+							<strong>Tech:</strong> TypeScript, MCP Protocol, Claude API
+						</p>
+						<ul className="flex gap-4 list-none p-0 m-0" aria-label="Dev Notes AI links">
+							<li
+								className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all"
+							>
+								<a
+									href="https://github.com/pamelagilmour/kqed-mcp-prototype"
+									target="_blank"
+									rel="noreferrer noopener"
+									aria-label="View KQED MCP prototype source code on GitHub"
+								>
+									Source code ↗ 
+								</a>
+							</li>
+							{/* <li
+								className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all"
+							>
+								<a
+									href="https://p-11-one.vercel.app/"
+									target="_blank"
+									rel="noreferrer noopener"
+									aria-label="View Dev Notes AI live demo"
+								>
+									Live Demo ↗ 
+								</a>
+							</li> */}
 						</ul>
 					</div>
 					{/* <div className="mb-14">
