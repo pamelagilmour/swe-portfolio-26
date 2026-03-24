@@ -36,11 +36,25 @@ export default function Home() {
 					<h2 className="text-2xl font-[500] mb-4 sm:mb-6">About</h2>
 					<p className="font-[300] mb-3">I'm a software engineer with 4 years of professional experience building accessible, scalable web applications.</p>
 					<p className="font-[300] mb-3">
-						I've led frontend architecture for high-traffic civic platforms at <a target="_blank" rel="noreferrer noopener" href="https://www.npr.org/">NPR</a> member station in Northern California, <a target="_blank" rel="noreferrer noopener" href="https://www.kqed.org/">KQED</a>, modernized legacy systems, and shipped products serving millions of users.
+						I've led frontend architecture for high-traffic civic platforms at{" "}
+						<a target="_blank" rel="noreferrer noopener" href="https://www.kqed.org/">
+							KQED
+						</a>
+						, an{" "}
+						<a target="_blank" rel="noreferrer noopener" href="https://www.npr.org/">
+							NPR
+						</a>{" "}
+						member station in Northern California. I modernized legacy systems and shipped products that reach millions of users.
 					</p>
-					<p className="font-[300] mb-3">Currently building AI-powered applications with Next.js, Python, FastAPI, and custom MCP servers.</p>
-					<p className="font-[300] mb-3"> I focus on clean architecture, system design, and writing code that's maintainable and performant.</p>
-					<p className="font-[300] mb-3">I care about code quality and making life easier for the people I work with, whether that's through documentation, code reviews, or just being someone people can ask questions.</p>
+					<p className="font-[300] mb-3">
+						Currently building AI-powered applications with Next.js, Python, FastAPI, and custom MCP servers.
+					</p>
+					<p className="font-[300] mb-3">
+						I focus on clean architecture, system design, and code that stays maintainable and fast.
+					</p>
+					<p className="font-[300] mb-3">
+						I care about code quality and about making things easier for teammates—through documentation, reviews, or being someone people can ask.
+					</p>
 				</section>
 				<section id="experience" className="mb-12 sm:mb-16 md:mb-20">
 					<h2 className="text-2xl font-[500] mb-4 sm:mb-6">Experience</h2>
@@ -49,23 +63,35 @@ export default function Home() {
 							<li id="codeword" className="mb-16">
 								<div>
 									<h3 className="text-lg font-[400] mb-3">
-										Senior Creative Developer @ Codeword Agency
+										Senior Creative Developer @ <a target="_blank" rel="noreferrer noopener" href="https://www.codewordagency.com/">Codeword Agency</a>
 									</h3>
 									<p className="text-lg font-[200] mb-3">Sep 2025 - Present</p>
 									<p className="text-lg font-[300] mb-3">
-										Develop web applications and digital experiences for enterprise clients including <a target="_blank" rel="noreferrer noopener" href="https://techcrunch.com/">TechCrunch</a> and <a target="_blank" rel="noreferrer noopener" href="https://www.manageengine.com/">ManageEngine</a>.
+										Build web applications and digital experiences for enterprise clients, including{" "}
+										<a target="_blank" rel="noreferrer noopener" href="https://techcrunch.com/">
+											TechCrunch
+										</a>{" "}
+										and{" "}
+										<a target="_blank" rel="noreferrer noopener" href="https://www.manageengine.com/">
+											ManageEngine
+										</a>
+										.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Develop and maintain web applications across multiple technology stacks including Vercel, WordPress, and BrightSpot CMS for clients like <a target="_blank" rel="noreferrer noopener" href="https://www.demandbase.com/">demandBase</a>.
+										Develop and maintain sites across stacks including Vercel, WordPress, and Brightspot CMS—for clients such as{" "}
+										<a target="_blank" rel="noreferrer noopener" href="https://www.demandbase.com/">
+											Demandbase
+										</a>
+										.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Build and maintain pages for Google Data Centers and internal properties, collaborating with design and communications teams.
+										Build and maintain pages for Google Data Centers and internal properties with design and communications teams.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Own CMS infrastructure and site maintenance for agency properties.
+										Own CMS infrastructure and ongoing site maintenance for agency properties.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Provide technical consultation on SEO strategy and performance optimization.
+										Consult on SEO strategy and performance optimization.
 									</p>
 									<p>
 										<strong>Tech:</strong> WordPress, PHP, React, TypeScript, Next.js, Vercel, Supabase
@@ -75,7 +101,7 @@ export default function Home() {
 							<li id="kqed" className="mb-16">
 								<div>
 									<h3 className="text-lg font-[400] mb-3">
-										Full Stack Software Engineer @ KQED Inc.
+										Full Stack Software Engineer @ <a target="_blank" rel="noreferrer noopener" href="https://www.kqed.org/">KQED Inc.</a>
 									</h3>
 									<p className="text-lg font-[200] mb-3">May 2022 - Oct 2025</p>
 									<p className="text-lg font-[300] mb-3">
@@ -100,17 +126,18 @@ export default function Home() {
 							<li id="postman" className="mb-12">
 								<div>
 									<h3 className="text-lg font-[400] mb-3">
-										Web Developer Intern @ Postman
+										Web Developer Intern @ <a target="_blank" rel="noreferrer noopener" href="https://www.postman.com/">Postman</a>
 									</h3>
 									<p className="text-lg font-[200] mb-3">Jul - Dec 2021</p>
 									<p className="text-lg font-[300] mb-3">
 										Worked on REST API workflows and frontend testing strategies.
 									</p>
-									<p>
-										Gained practical experience in API testing, documentation, and developer-first tools.
+									<p className="text-lg font-[300] mb-3">
+										Gained hands-on experience with API testing, documentation, and developer-first tooling.
 									</p>
 									<p>
-									<strong>Tech:</strong> React, GraphQL, Postman</p>
+										<strong>Tech:</strong> React, GraphQL, Postman
+									</p>
 								</div>
 							</li>
 						</ul>
@@ -165,12 +192,12 @@ export default function Home() {
 							MCP Server prototype for KQED
 						</h4>
 						<p className="text-lg font-[300] mb-3">
-							Custom MCP server providing programmatic access to KQED's public APIs for content discovery and media retrieval
+							Custom MCP server that exposes KQED's public APIs for content discovery and media retrieval.
 						</p>
 						<p className="text-lg font-[300] mb-3">
 							<strong>Tech:</strong> TypeScript, MCP Protocol, Claude API
 						</p>
-						<ul className="flex gap-4 list-none p-0 m-0" aria-label="Dev Notes AI links">
+						<ul className="flex gap-4 list-none p-0 m-0" aria-label="KQED MCP prototype links">
 							<li
 								className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all"
 							>
@@ -189,7 +216,11 @@ export default function Home() {
 			</main>
 			<footer className="">
 				<p className="font-[100] text-sm sm:text-base pb-8">
-					Inspired by <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://brittanychiang.com/">Brittany Chang's Portfolio</a>. Coded in <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://cursor.com/">Cursor</a>, built with <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://nextjs.org/">Next.js</a> and <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://tailwindcss.com/">Tailwind CSS</a>, deployed with <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://www.cloudflare.com/">Cloudflare</a>.
+					Inspired by{" "}
+					<a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://brittanychiang.com/">
+						Brittany Chiang's portfolio
+					</a>
+					. Coded in <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://cursor.com/">Cursor</a>, built with <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://nextjs.org/">Next.js</a> and <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://tailwindcss.com/">Tailwind CSS</a>, deployed with <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://www.cloudflare.com/">Cloudflare</a>.
 					All text is in <a className="font-semibold" target="_blank" rel="noreferrer noopener" href="https://www.ibm.com/plex/">IBM Plex Mono</a> typeface.
 				</p>
 				<nav>

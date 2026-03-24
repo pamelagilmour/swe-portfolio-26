@@ -3,6 +3,8 @@
 :root {
 	--background: #333300;
 	--foreground: lavender;
+	--link: color-mix(in srgb, var(--foreground) 88%, white);
+	--link-hover: #ffffff;
 }
 
 @theme inline {
@@ -21,6 +23,59 @@
 body {
 	background: var(--background);
 	color: var(--foreground);
+}
+
+/* Inline / text links */
+a:not([class*="border-dotted"]) {
+	color: var(--link);
+	text-decoration: underline;
+	text-decoration-color: color-mix(in srgb, currentColor 55%, transparent);
+	text-decoration-thickness: max(1px, 0.06em);
+	text-underline-offset: 0.2em;
+	transition:
+		color 0.15s ease,
+		text-decoration-color 0.15s ease;
+}
+
+a:not([class*="border-dotted"]):hover {
+	color: var(--link-hover);
+	text-decoration-color: currentColor;
+}
+
+a:not([class*="border-dotted"]):visited {
+	color: var(--link);
+}
+
+a:not([class*="border-dotted"]):visited:hover {
+	color: var(--link-hover);
+}
+
+a:focus-visible {
+	outline: 2px solid var(--foreground);
+	outline-offset: 3px;
+	border-radius: 1px;
+}
+
+/* Chip / pill links — no underline; match body text */
+a[class*="border-dotted"],
+li[class*="border-dotted"] > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+a[class*="border-dotted"]:hover,
+a[class*="border-dotted"]:visited,
+a[class*="border-dotted"]:visited:hover,
+li[class*="border-dotted"] > a:hover,
+li[class*="border-dotted"] > a:visited,
+li[class*="border-dotted"] > a:visited:hover {
+	color: inherit;
+	text-decoration: none;
+}
+
+a[class*="border-dotted"]:focus-visible,
+li[class*="border-dotted"] > a:focus-visible {
+	outline-offset: 4px;
 }
 
 @media (prefers-reduced-motion: reduce) {
