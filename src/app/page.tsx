@@ -1,14 +1,15 @@
+import { SkipToContent } from "@/components/SkipToContent";
+
 export default function Home() {
 	return (
 		<div id="top" className="font-mono min-h-screen px-6 py-8 max-w-screen-md lg:mx-auto">
+			<SkipToContent />
 			<header className="pb-24">
-				{/* Add a11y menu */}
 				<h1 className="text-5xl font-[400] mb-2 sm:mb-3">Pamela Gilmour</h1>
 				<h2 className="text-3xl font-[300] mb-3 sm:mb-4">Software Engineer</h2>
 				<p className="font-[200] mb-6 sm:mb-8">Full-stack development • AI/MCP integration • System design</p>
 				{/* Add hidden nav */}
 				<ul className="flex gap-4 list-none p-0 m-0" aria-label="Social links">
-					{/* Add hover states */}
 					<li className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
 						<a target="_blank" rel="noreferrer noopener" href="https://github.com/pamelagilmour">
 							GitHub
@@ -26,12 +27,16 @@ export default function Home() {
  					</li>
 				</ul>
 			</header>
-			<main>
+			<main
+				id="content"
+				tabIndex={-1}
+				className="outline-none focus:outline focus:outline-2 focus:outline-offset-2 focus:outline-[lavender]"
+			>
 				<section id="about" className="mb-16 sm:mb-16 md:mb-20">
 					<h2 className="text-2xl font-[500] mb-4 sm:mb-6">About</h2>
-					<p className="font-[300] mb-3">I'm a software engineer with 4 years of experience building accessible, scalable web applications.</p>
+					<p className="font-[300] mb-3">I'm a software engineer with 4 years of professional experience building accessible, scalable web applications.</p>
 					<p className="font-[300] mb-3">
-						I've led frontend architecture for high-traffic civic platforms at KQED, modernized legacy systems, and shipped products serving millions of users.
+						I've led frontend architecture for high-traffic civic platforms at <a target="_blank" rel="noreferrer noopener" href="https://www.npr.org/">NPR</a> member station in Northern California, <a target="_blank" rel="noreferrer noopener" href="https://www.kqed.org/">KQED</a>, modernized legacy systems, and shipped products serving millions of users.
 					</p>
 					<p className="font-[300] mb-3">Currently building AI-powered applications with Next.js, Python, FastAPI, and custom MCP servers.</p>
 					<p className="font-[300] mb-3"> I focus on clean architecture, system design, and writing code that's maintainable and performant.</p>
@@ -48,22 +53,22 @@ export default function Home() {
 									</h3>
 									<p className="text-lg font-[200] mb-3">Sep 2025 - Present</p>
 									<p className="text-lg font-[300] mb-3">
-										Develop web applications and digital experiences for enterprise clients including Google.
+										Develop web applications and digital experiences for enterprise clients including <a target="_blank" rel="noreferrer noopener" href="https://techcrunch.com/">TechCrunch</a> and <a target="_blank" rel="noreferrer noopener" href="https://www.manageengine.com/">ManageEngine</a>.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Develop and maintain web applications across multiple technology stacks including Vercel, WordPress, and BrightSpot CMS.
+										Develop and maintain web applications across multiple technology stacks including Vercel, WordPress, and BrightSpot CMS for clients like <a target="_blank" rel="noreferrer noopener" href="https://www.demandbase.com/">demandBase</a>.
 									</p>
 									<p className="text-lg font-[300] mb-3">
 										Build and maintain pages for Google Data Centers and internal properties, collaborating with design and communications teams.
 									</p>
 									<p className="text-lg font-[300] mb-3">
-										Own WordPress infrastructure and site maintenance for agency properties.
+										Own CMS infrastructure and site maintenance for agency properties.
 									</p>
 									<p className="text-lg font-[300] mb-3">
 										Provide technical consultation on SEO strategy and performance optimization.
 									</p>
 									<p>
-										<strong>Tech:</strong> WordPress, PHP, React, TypeScript, Next.js, Vercel, Supabase, BrightSpot
+										<strong>Tech:</strong> WordPress, PHP, React, TypeScript, Next.js, Vercel, Supabase
 									</p>
 								</div>
 							</li>
@@ -104,6 +109,8 @@ export default function Home() {
 									<p>
 										Gained practical experience in API testing, documentation, and developer-first tools.
 									</p>
+									<p>
+									<strong>Tech:</strong> React, GraphQL, Postman</p>
 								</div>
 							</li>
 						</ul>
@@ -176,60 +183,8 @@ export default function Home() {
 									Source code ↗ 
 								</a>
 							</li>
-							{/* <li
-								className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all"
-							>
-								<a
-									href="https://p-11-one.vercel.app/"
-									target="_blank"
-									rel="noreferrer noopener"
-									aria-label="View Dev Notes AI live demo"
-								>
-									Live Demo ↗ 
-								</a>
-							</li> */}
 						</ul>
 					</div>
-					{/* <div className="mb-14">
-						<h4 className="text-lg font-[400] mb-3">
-							<strong>Real-Time Analytics Platform</strong> <span className="font-[300]">(○ Planned)</span>
-						</h4>
-						<p className="text-lg font-[300] mb-3">
-							Demonstrating advanced data structures, algorithms, and high-throughput system design.
-						</p>
-						<p className="text-lg font-[300] mb-3">
-							<strong>Tech:</strong> Next.js, Python, WebSocket, PostgreSQL
-						</p>
-						<p className="text-lg font-[300] mb-3">
-							↗ <a
-								href="https://github.com/pamelagilmour/p-2"
-								target="_blank"
-								rel="noreferrer noopener"
-								className="underline hover:no-underline transition-all">
-								View on GitHub
-							</a>
-						</p>
-					</div> */}
-					{/* <div className="mb-14">
-						<h4 className="text-lg font-[400] mb-3">
-							<strong>Autonomous Research Agent</strong> <span className="font-[300]">(○ Planned)</span>
-						</h4>
-						<p className="text-lg font-[300] mb-3">
-							AI agent system with multi-step reasoning, tool orchestration, and production-grade error handling.
-						</p>
-						<p className="text-lg font-[300] mb-3">
-							<strong>Tech:</strong> Python, FastAPI, MCP Protocol, Claude API
-						</p>
-						<p className="text-lg font-[300] mb-3">
-							↗ <a
-								href="https://github.com/pamelagilmour/p-3"
-								target="_blank"
-								rel="noreferrer noopener"
-								className="underline hover:no-underline transition-all">
-								View on GitHub
-							</a>
-						</p>
-					</div> */}
 				</section>
 			</main>
 			<footer className="">
