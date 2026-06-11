@@ -142,7 +142,7 @@ export default function Home() {
 							</li>
 						</ul>
 						<div className="mt-8">
-							<a href="/PamelaGilmourEngResumebc.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF" className=" border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
+							<a href="/PamelaGilmourEngResume-6-26.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF" className=" border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
      							Resume
    							</a>
      					</div>
