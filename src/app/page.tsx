@@ -21,7 +21,7 @@ export default function Home() {
 						</a>
 					</li>
 					<li className="border-[1] border-dotted px-2 py-1 hover:border-gray-500 hover:bg-black transition-all">
-   						<a href="/PamelaGilmourEngResumebc.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF">
+   						<a href="/PamelaGilmourEngResume-6-26.pdf" target="_blank" rel="noreferrer noopener" aria-label="View resume PDF">
      						Resume
    						</a>
  					</li>
